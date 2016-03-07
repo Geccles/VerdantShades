@@ -17,28 +17,26 @@ body {
   font-size: 14px;
   color: #3c3c3c;
 }
-
 a:hover, a:focus {
   color: #416c54;
   text-decoration: none;
 }
-
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
   box-shadow: 0 0 5px #ccc;
 }
-
 h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 4rem;
 }
-
 small {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2rem;
 }
-
+.portfolio-item {
+  padding: 2rem;
+}
 /*------------------------------------------------*/
 
 
@@ -116,4 +114,5 @@ small {
   padding: 15px 0;
   margin-top: 0;
   color: #fff;
+  margin-bottom: 0;
 }
