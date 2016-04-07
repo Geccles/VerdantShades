@@ -21,11 +21,6 @@ a:hover, a:focus {
   color: #416c54;
   text-decoration: none;
 }
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  box-shadow: 0 0 5px #ccc;
-}
 h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 4rem;
@@ -37,8 +32,8 @@ small {
 .portfolio-item {
   padding: 2rem;
 }
-/*------------------------------------------------*/
 
+/*------------------------------------------------*/
 
 /*	Navigation
 /*------------------------------------------------*/
@@ -103,7 +98,6 @@ small {
 
 /*------------------------------------------------*/
 
-
 /*	Footer
 /*------------------------------------------------*/
 
@@ -111,8 +105,12 @@ small {
   background-color: #91575b;
   text-align: center;
   font-size: 1.0em;
-  padding: 15px 0;
+  padding: 15px;
   margin-top: 0;
   color: #fff;
   margin-bottom: 0;
+  max-width: inherit;
+}
+.center-image {
+  margin-left: 25%;
 }
